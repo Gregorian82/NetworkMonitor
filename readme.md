@@ -87,11 +87,11 @@ To execute the code
 ```bash
 ./nm x
 ```
-the parameter x is the settings of baudrate: 
+the parameter x (0~4) is the settings of baudrate: 
 0 = 100kbps, 
 1 = 125kbps, 
 2 = 250kbps, 
-3 = 500kbps,  
+3 = 500kbps, 
 4 = 1Mkbps 
 
 ## storage data
