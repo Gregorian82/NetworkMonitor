@@ -17,7 +17,8 @@ To make NM running correctly, some hardware driver and configuration software sh
 ### CAN Device Driver
 
 Currently [PEAK device](https://www.peak-system.com/PCAN-USB.199.0.html) has been tested. 
-[![PEAK USB Device](https://www.peak-system.com/typo3temp/pics/61ef9f60a0.jpg)]
+
+![PEAK USB Device](https://www.peak-system.com/typo3temp/pics/61ef9f60a0.jpg)
 
 Click "Download PCAN Driver Package" in [PEAK webpage](https://www.peak-system.com/fileadmin/media/linux/index.htm) 
 
@@ -29,7 +30,7 @@ Requirements for your Linux OS:
 sudo apt-get install libpopt-dev
 ```
 
-Unzip the package and go into the folder
+Unzip the package
 ```bash
 make clean
 make
@@ -37,14 +38,14 @@ sudo make install
 sudo modprobe pcan
 ```
 
-To make sure whether the installed driver is OK, insert the PEAK USB hardware and check the status
+To make sure the installed driver is correct, insert the PEAK USB hardware and
 ```bash
 ls -l /dev/pcan*
 ```
 
 ## Configuration File Generation
 
-I already put the examples in "examples" subfolder.
+I already put the configuration example in "examples" subfolder.
 
 ### DBC file
 
@@ -86,11 +87,11 @@ To execute the code
 ```bash
 ./nm x
 ```
-the parameter x is the settings of baudrate.
-0 = 100kbps
-1 = 125kbps
-2 = 250kbps
-3 = 500kbps
+the parameter x is the settings of baudrate: 
+0 = 100kbps, 
+1 = 125kbps, 
+2 = 250kbps, 
+3 = 500kbps,  
 4 = 1Mkbps 
 
 ## storage data
