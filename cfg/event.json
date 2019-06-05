@@ -1,0 +1,40 @@
+{
+    "Sheet1": [
+        {
+            "EventID": 1,
+            "MessageName": "msg123",
+            "MessageID": " 7Bh",
+            "SignalName": "RPM",
+            "Operator": "==",
+            "Threathold": 100.0,
+            "Relationship": ""
+        },
+        {
+            "EventID": 1,
+            "MessageName": "msg123",
+            "MessageID": " 7Bh",
+            "SignalName": "Voltage",
+            "Operator": ">",
+            "Threathold": 0.5,
+            "Relationship": "AND"
+        },
+        {
+            "EventID": 2,
+            "MessageName": "msg123",
+            "MessageID": " 7Bh",
+            "SignalName": "Voltage",
+            "Operator": "<",
+            "Threathold": 1.0,
+            "Relationship": ""
+        },
+        {
+            "EventID": 2,
+            "MessageName": "msg123",
+            "MessageID": " 7Bh",
+            "SignalName": "RPM",
+            "Operator": ">",
+            "Threathold": 1550.0,
+            "Relationship": "AND"
+        }
+    ]
+}

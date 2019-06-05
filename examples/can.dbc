@@ -1,0 +1,15 @@
+VERSION ""
+
+
+BS_:
+
+BU_:
+
+
+BO_ 123 msg123: 8 Vector__XXX
+ SG_ RPM : 8|16@1+ (0.5,0) [0|5000] "1/s" Vector__XXX
+ SG_ Voltage : 0|8@1+ (0.25,0) [0|12.5] "V" Vector__XXX
+
+
+
+

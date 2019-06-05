@@ -1,0 +1,31 @@
+{
+    "messages": [
+        {
+            "id": 123,
+            "is_extended_frame": false,
+            "name": "msg123",
+            "signals": [
+                {
+                    "bit_length": 16,
+                    "factor": "0.5",
+                    "is_big_endian": false,
+                    "is_float": false,
+                    "is_signed": false,
+                    "name": "RPM",
+                    "offset": "0",
+                    "start_bit": 8
+                },
+                {
+                    "bit_length": 8,
+                    "factor": "0.25",
+                    "is_big_endian": false,
+                    "is_float": false,
+                    "is_signed": false,
+                    "name": "Voltage",
+                    "offset": "0",
+                    "start_bit": 0
+                }
+            ]
+        }
+    ]
+}
