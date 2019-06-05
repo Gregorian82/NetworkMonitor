@@ -96,18 +96,15 @@ the parameter x (0~4) is the settings of baudrate:
 
 ## Storage Data
 
-All data is stored in subfolder **Report**, in which the structure is:
+Directory "**Report**" structure
+------
+    .
+    ├── raw                 # raw data w/o conifguration, full data
+    └── event               # 
+        ├── raw             # raw data w/ configuration
+        └── summary         # event summary
+------
 
-|-report
-  
-  |-raw         ->raw data w/o conifguration
-  
-  |-event
-  
-     |-raw	->raw data w configuration
-     
-     |-summary	->event records
-    
 
 ## Hardware Embedded Platform
 
