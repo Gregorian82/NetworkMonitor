@@ -96,9 +96,9 @@ the parameter x (0~4) is the settings of baudrate:
 
 ## Storage Data
 
-Directory "**Report**" structure
 ------
-    .
+Directory "**Report**" structure
+
     ├── raw                 # raw data w/o conifguration, full data
     └── event               # 
         ├── raw             # raw data w/ configuration
