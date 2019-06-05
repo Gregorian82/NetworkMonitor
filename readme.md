@@ -94,9 +94,20 @@ the parameter x (0~4) is the settings of baudrate:
 3 = 500kbps, 
 4 = 1Mkbps 
 
-## storage data
+## Storage Data
 
-The data is recorded in **report** folder, in which there are two folder "raw" and "event". In raw folder, all CAN data is stored, while in the event folder, only the active data triggered by event with some data buffer.
+All data is stored in subfolder **Report**, in which the structure is:
+
+|-report
+  
+  |-raw         ->raw data w/o conifguration
+  
+  |-event
+  
+     |-raw	->raw data w configuration
+     
+     |-summary	->event records
+    
 
 ## Hardware Embedded Platform
 
